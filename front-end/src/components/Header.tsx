@@ -1,9 +1,9 @@
 import HEADER from "../config/header.json"
-import discord from "../assets/svg/discord.svg";
-import opensea from "../assets/svg/opensea.svg";
-import instagram from "../assets/svg/instagram.svg";
-import twitter from "../assets/svg/twitter.svg";
-import tiktok from "../assets/svg/tiktok.svg";
+import DiscordIcon from "../assets/svg/discord";
+import OpenSeaIcon from "../assets/svg/opensea";
+import InstagramIcon from "../assets/svg/instagram";
+import TwitterIcon from "../assets/svg/twitter";
+import TiktokIcon from "../assets/svg/tiktok";
 
 const Header = () => {
   const MENU_ITEMS = HEADER["menu-item"];
@@ -14,16 +14,16 @@ const Header = () => {
       <div className="menu-items hidden lg:flex justify-items-center space-x-[30px] items-center">
         {
           MENU_ITEMS && MENU_ITEMS.length > 0 && MENU_ITEMS.map((item) => 
-            <div key={item} className="text-[16px] font-['Chakra Petch'] leading-[22px]">{item}</div>
+            <a href={ "#" + item } className="hover:text-[#0094FF]"><div key={item} className="text-[16px] font-['Chakra Petch'] leading-[22px]">{item}</div></a>
           )
         }
       </div>
-      <div className="menu-socials flex justify-items-center space-x-[15px] items-center">
-        <a href={ HEADER["discord-link"] }><img src={ discord } className="discord-icon" alt="Discord" /></a>
-        <a href={ HEADER["opensea-link"] }><img src={ opensea } className="opensea-icon" alt="OpenSea" /></a>
-        <a href={ HEADER["instagram-link"] }><img src={ instagram } className="instagram-icon" alt="Instagram" /></a>
-        <a href={ HEADER["twitter-link"] }><img src={ twitter } className="twitter-icon" alt="Twitter" /></a>
-        <a href={ HEADER["tiktok-link"] }><img src={ tiktok } className="tiktok-icon" alt="Tiktok" /></a>
+      <div className="flex justify-items-center space-x-[15px] items-center">
+        <a className="fill-[#FAFAFA] hover:fill-[#0094FF]" href={ HEADER["discord-link"] }><DiscordIcon/></a>
+        <a className="fill-[#FAFAFA] hover:fill-[#0094FF]" href={ HEADER["opensea-link"] }><OpenSeaIcon /></a>
+        <a className="fill-[#FAFAFA] hover:fill-[#0094FF]" href={ HEADER["instagram-link"] }><InstagramIcon /></a>
+        <a className="fill-[#FAFAFA] hover:fill-[#0094FF]" href={ HEADER["twitter-link"] }><TwitterIcon /></a>
+        <a className="fill-[#FAFAFA] hover:fill-[#0094FF]" href={ HEADER["tiktok-link"] }><TiktokIcon /></a>
       </div>
     </div>
   )
