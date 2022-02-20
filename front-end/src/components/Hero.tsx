@@ -2,7 +2,7 @@ import dog1 from "../assets/img/hero/1 dog 1.png";
 import dog2 from "../assets/img/hero/2 dog 1.png";
 import dog3 from "../assets/img/hero/3 dog 1.png";
 import dog4 from "../assets/img/hero/4 dog 1.png";
-import ControlButton from "./ControlButton";
+import ControlButton from "./utils/ControlButton";
 
 const Hero = () => {
   const onMint = () => {

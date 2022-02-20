@@ -9,7 +9,7 @@ const Header = () => {
   const MENU_ITEMS = HEADER["menu-item"];
 
   return (
-    <div className="flex justify-between px-16 py-1">
+    <div className="flex justify-between px-16 py-1 mt-[-6605px] sticky top-0 bg-[#0B0B0B]/30 backdrop-blur-[4px]">
       <div className="menu-logo text-[20px] font-['Trouble_Font'] font-[400] tracking-[2px] leading-[24px]">WorkingDogs</div>
       <div className="menu-items hidden lg:flex justify-items-center space-x-[30px] items-center">
         {

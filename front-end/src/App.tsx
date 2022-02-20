@@ -3,6 +3,7 @@ import React from 'react';
 import Background from './components/Background';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Pack from './components/Pack';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Background />
       <Header />
       <Hero />
+      <Pack />
     </div>
   );
 }
