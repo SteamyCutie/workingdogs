@@ -18,6 +18,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0B0B0B;
   color: #FAFAFA;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 150ms;
 }
 
 code {
