@@ -4,6 +4,7 @@ import Background from './components/Background';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Pack from './components/Pack';
+import YellowTape from './components/YellowTape';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <Pack />
+      <YellowTape />
     </div>
   );
 }
