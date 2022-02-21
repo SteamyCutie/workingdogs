@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Pack from './components/Pack';
 import Roadmap from './components/Roadmap';
 import YellowTape from './components/YellowTape';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Pack />
       <YellowTape />
       <Roadmap />
+      <Gallery />
     </div>
   );
 }
