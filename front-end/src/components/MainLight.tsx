@@ -1,4 +1,4 @@
-const Background = () => {
+const MainLight = () => {
   return (
     <div className="">
 <svg width="100vw" height="6605" viewBox="0 0 1440 6605" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -139,4 +139,4 @@ const Background = () => {
   )
 }
 
-export default Background;
+export default MainLight;
