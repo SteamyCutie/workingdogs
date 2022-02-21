@@ -9,6 +9,7 @@ import YellowTape from './components/YellowTape';
 import Gallery from './components/Gallery';
 import Rarity from './components/Rarity';
 import FAQ from './components/FAQ';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Gallery />
       <Rarity />
       <FAQ />
+      <Team />
     </div>
   );
 }
