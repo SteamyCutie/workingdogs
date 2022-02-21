@@ -1,6 +1,7 @@
 import PhaseFrame from "../../assets/svg/phaseframe";
 import PhaseLoaded from "../../assets/svg/phaseloaded";
 import PhaseProgress from "../../assets/svg/phaseprogress";
+import PhaseLight from "../../assets/svg/phaselight.svg";
 
 type Props = {
   name: any;
@@ -14,6 +15,8 @@ const PhaseItem = ({ name, image, description, loaded, progress } : Props ) => {
   const newImg = require('../../assets/img/roadmap/' + image);
   return (
     <div>
+      <img className="mt-[540px]" alt="Phase Light" src={ PhaseLight } />
+      <div className="mt-[-630px]"></div>
       <PhaseFrame />
       <div className="text-[40px] leading-[48px] font-['Trouble_Font'] mt-[-440px] ml-[10px]">{ name }</div>
       <div className={`text-[18px] leading-[23px] font-['Chakra_Petch'] mt-[50px] ml-[24px] w-[290px] h-[80px] overflow-auto flex text-center ${description.length <= 100 ? 'items-center ' : 'items-start'}`}>{ description }</div>
