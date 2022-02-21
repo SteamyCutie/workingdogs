@@ -28,9 +28,9 @@ const Accordion = ({ data } : Props) => {
           <ToggleItem />
        </div>
       </div>
-      <div className={"w-[1240px] z-10 mt-[-7px] font-[#FAFAFA] text-[18px] font-medium leading-[27px] ml-[13px] transition-all duration-350 ease-[cubic-bezier(0.080,1.090,0.320,1.275)] " + (i.open ? "border-[1px] border-white border-t-0 mt-[0px] pt-[1px] h-[150px]" : " h-[0px] ")}>
+      <div className={"w-[1240px] z-10 mt-[-7.5px] font-[#FAFAFA] text-[18px] font-medium leading-[27px] ml-[13px] transition-all duration-350 ease-[cubic-bezier(0.080,1.090,0.320,1.275)] " + (i.open ? "border-[1px] border-white border-t-0 mt-[0px] pt-[1px] h-[150px]" : " h-[0px] ")}>
         <div className={"w-[1220px] z-10 m-[10px] overflow-auto transition-all duration-350 ease-[cubic-bezier(0.080,1.090,0.320,1.275)] " + (i.open ? "border-white h-[130px]" : "h-[0px]")}>
-          <div className={"indent-4 p-[4px] pl-[10px] pr-[10px] transition-all duration-200 easin-in " + (i.open ? "visible opacity-1 transition-all duration-800 ease-in" : "invisible opacity-0 ")}> {i.content} </div>
+          <div className={"indent-4 p-[6px] pl-[10px] pr-[10px] transition-all duration-200 easin-in " + (i.open ? "visible opacity-1 transition-all duration-800 ease-in" : "invisible opacity-0 ")}> {i.content} </div>
         </div>
       </div>
     </div>

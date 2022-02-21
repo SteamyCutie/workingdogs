@@ -1,32 +1,14 @@
-import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
-import MainLight from './components/MainLight';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Pack from './components/Pack';
-import Roadmap from './components/Roadmap';
-import YellowTape from './components/YellowTape';
-import Gallery from './components/Gallery';
-import Rarity from './components/Rarity';
-import FAQ from './components/FAQ';
-import Team from './components/Team';
-import Footer from './components/Footer';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <MainLight />
-      <Header />
-      <Hero />
-      <Pack />
-      <YellowTape />
-      <Roadmap />
-      <Gallery />
-      <Rarity />
-      <FAQ />
-      <Team />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+        {/* <Route path="/mint" exact component={ Minting } /> */}
+      </Routes>
+    </Router>
   );
 }
 

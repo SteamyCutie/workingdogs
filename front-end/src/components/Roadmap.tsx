@@ -1,4 +1,4 @@
-import ROADMAP from "../config/roadmap.json";
+import ROADMAP from "../configs/roadmap.json";
 import PhaseItem from "./utils/PhaseItem";
 import { PhaseBranch12, PhaseBranch23, PhaseBranch34, PhaseBranch41 } from "../assets/svg/phasebranch";
 
@@ -43,9 +43,9 @@ const Roadmap = () => {
     }
   }
   return (
-    <div className="justify-center mt-10">
+    <div className="justify-center mt-9" id="roadmap">
       <div className="w-[calc(100vw-6px)] h-[1900px] bg-cover bg-[url('./assets/svg/roadmapback.svg')]"></div>
-      <div className="flex justify-center mt-[-1740px] font-['Trouble_Font'] text-[100px] lg:text-[100px] tracking-[5px] leading-[120px]">Roadmap</div>
+      <div className="flex justify-center mt-[-1760px] font-['Trouble_Font'] text-[100px] lg:text-[100px] tracking-[5px] leading-[120px]">Roadmap</div>
       <div className="flex justify-center"><div className="gap-x-[0] mt-[64px] w-[1680px] grid grid-cols-5">{ phaseItems }</div></div>
     </div>
   )

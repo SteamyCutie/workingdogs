@@ -5,7 +5,7 @@ import PolicePack from "../assets/img/pack/police_pack.png"
 
 const Pack = () => {
   return (
-    <div className="justify-center mt-10">
+    <div className="justify-center mt-10" id="pack">
       <div className="flex justify-center font-['Trouble_Font'] text-[74px] lg:text-[100px] tracking-[1px] leading-[120px]">Join the Pack!</div>
       <div className="flex justify-center mt-[16px] font-['Chakra_Petch'] text-[#7E7E7E] text-[16px] lg:text-[16px] tracking-[1px] leading-[22.4px]"><span className="text-center max-w-[36%]">Working dogs come in many shapes, sizes and colors. Get in early for a chance to claim your very own, and join a community of like-minded handlers, trainers, dog enthusiasts, traders and NFT Holders</span></div>
       <div className="flex justify-center mt-[10px]">

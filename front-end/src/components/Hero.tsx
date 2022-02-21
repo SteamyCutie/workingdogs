@@ -13,7 +13,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="justify-center">
+    <div className="justify-center" id="about">
       <div className="flex justify-center font-['Trouble_Font'] text-[74px] lg:text-[200px] tracking-[1px] leading-[240px]">Working Dogs</div>
       <div className="flex items-end justify-center">
         <img src={ dog4 } alt="dog4" />

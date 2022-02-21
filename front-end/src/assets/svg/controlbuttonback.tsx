@@ -1,7 +1,7 @@
 const ControlButtonBack = () => {
   return (
     <svg width="410" height="111" viewBox="0 0 410 111" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path opacity="0.9" d="M52 15L14 79.5L25.5 97.5H359L396 32L385 15H52Z" fill="black" stroke="#0B8EFD" strokeWidth="4" className="fill-black hover:fill-[#022457]/90 active:fill-[#003F9A]/90"/>
+    <path opacity="0.9" d="M52 15L14 79.5L25.5 97.5H359L396 32L385 15H52Z" stroke="#0B8EFD" strokeWidth="4" className="transition-all duration-[30ms] fill-black/50 hover:fill-[#022457]/90 active:fill-[#003F9A]/90"/>
     <path d="M72 89.5L66 97H358L383 55L376.5 50L353 89.5H72Z" fill="#0B8EFD" stroke="#0B8EFD"/>
     <g style={{ mixBlendMode: "hard-light" }} opacity="0.7" filter="url(#filter0_f_0_1)">
     <path d="M52 14.25L14 78.75L25.5 96.75H359L396 31.25L385 14.25H52Z" stroke="#0094FF" strokeWidth="2.6"/>
