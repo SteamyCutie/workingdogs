@@ -7,7 +7,7 @@ import GalleryItem from "../assets/svg/galleryitem";
 const Gallery = () => {
   return (
     <div className="justify-center mt-[-20px]">
-      <div className="flex justify-center font-['Trouble_Font'] text-[74px] lg:text-[100px] tracking-[1px] leading-[120px]">Gallery</div>
+      <div className="flex justify-center font-['Trouble_Font'] text-[74px] lg:text-[100px] tracking-[5px] leading-[120px]">Gallery</div>
       <div className="flex justify-center mt-[50px] gap-[20px]">
         <GalleryItem key="Gallery1" img={Gallery1} />
         <GalleryItem key="Gallery2" img={Gallery2} />

@@ -7,6 +7,7 @@ import Pack from './components/Pack';
 import Roadmap from './components/Roadmap';
 import YellowTape from './components/YellowTape';
 import Gallery from './components/Gallery';
+import Rarity from './components/Rarity';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <YellowTape />
       <Roadmap />
       <Gallery />
+      <Rarity />
     </div>
   );
 }
