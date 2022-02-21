@@ -10,6 +10,7 @@ import Gallery from './components/Gallery';
 import Rarity from './components/Rarity';
 import FAQ from './components/FAQ';
 import Team from './components/Team';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Rarity />
       <FAQ />
       <Team />
+      <Footer />
     </div>
   );
 }
