@@ -66,7 +66,7 @@ export const PhaseBranch34 = () => {
 
 export const PhaseBranch41 = () => {
   return (
-    <svg className="m-0 mt-[265px] float-right" width="85" height="698" viewBox="0 0 85 698" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="m-0 mt-[265px] float-right" style={{transform: "translateX(14px)"}} width="85" height="698" viewBox="0 0 85 698" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_116_537)">
         <path d="M79.5 6L8 77.5V392L36 420V496.25M23.5 60L6 77.5V116M79 692H59V595.5L36 572.5V496.25M36 496.25H79" stroke="#FAFAFA" strokeWidth="3"/>
       </g>
@@ -82,6 +82,22 @@ export const PhaseBranch41 = () => {
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_116_537" result="shape"/>
         </filter>
       </defs>
+    </svg>
+  )
+}
+
+export const PhaseMDBrach12 = () => {
+  return (
+    <svg width="240" height="108" viewBox="0 0 240 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 4.5L2 22.5V56L36.5 90.5V107.5M208.5 2L236.5 30V66L221 81.5V107.5M238.5 53V66L225 79.5M13.5 13.5L4.5 22.5V44.5" stroke="#FAFAFA" strokeWidth="3"/>
+    </svg>
+  )
+}
+
+export const PhaseMDBrach21 = () => {
+  return (
+    <svg width="240" height="108" viewBox="0 0 240 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M218.5 4.5L236.5 22.5V56L202 90.5V107.5M30 2L2 30V66L17.5 81.5V107.5M218.5 76.5L238 57V31.5" stroke="#FAFAFA" strokeWidth="3"/>
     </svg>
   )
 }

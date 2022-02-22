@@ -4,7 +4,7 @@ type Props = {
 
 const PhaseLoaded = ({loaded} : Props) => {
   return (
-    <svg className="mt-[50px] ml-[17px]" width="60" height="46" viewBox="0 0 60 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="mt-[50px] ml-[39px]" width="60" height="46" viewBox="0 0 60 46" fill="none" xmlns="http://www.w3.org/2000/svg">
       <text x="0" y="28" className="text-[24px] text-[#0066FF] font-[900]" fill="#0066FF" filter="url(#filter0_ddi_49_365)">{ `${loaded}%` }</text>
       <defs>
         <filter id="filter0_ddi_49_365" x="0.572028" y="0.599951" width="60" height="50" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">

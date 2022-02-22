@@ -4,9 +4,9 @@ type Props = {
   frameBack: any;
 }
 
-const RarityFrame = ({ rarityData, mightyDog, frameBack }: Props) => {
+const RarityLGFrame = ({ rarityData, mightyDog, frameBack }: Props) => {
   return (
-<svg width="1253" height="735" viewBox="0 0 1253 735" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<svg className="hidden lg:flex" width="1253" height="735" viewBox="0 0 1253 735" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <path d="M198.5 7.5L7 199V484L164.5 641.5H330L362.5 674H1036.5L1069 641.5H1162L1248 555.5V93.5L1162 7.5H1081.5L1013.62 67.5H584.875L517 7.5H500.5H198.5Z" fill="url(#pattern0)" fillOpacity="0.25"/>
 <path d="M198.5 7.5L7 199V484L164.5 641.5H330L362.5 674H1036.5L1069 641.5H1162L1248 555.5V93.5L1162 7.5H1081.5L1013.62 67.5H584.875L517 7.5H500.5H198.5Z" fill="#181818"/>
 <path d="M198.5 7.5L7 199V484L164.5 641.5H330L362.5 674H1036.5L1069 641.5H1162L1248 555.5V93.5L1162 7.5H1081.5L1013.62 67.5H584.875L517 7.5H500.5H198.5Z" stroke="#FAFAFA" strokeWidth="4"/>
@@ -117,7 +117,6 @@ const RarityFrame = ({ rarityData, mightyDog, frameBack }: Props) => {
 </g>
 <text x="896.24" y="45.4" className="text-[48px] text-[#FAFAFA] font-[900]" filter="url(#filter14_d_49_184)" fill="#FAFAFA">{ rarityData.totalCount }</text>
 <g filter="url(#filter14_d_49_184)">
-{/* <path d="M917.04 20.4V19.968H900.24V14.4H923.856V20.544L910.368 48H903.456L917.04 20.4ZM925.32 45.936V42.864L927.384 40.8H930.888L932.904 42.912V45.888L930.888 48H927.384L925.32 45.936ZM952.824 20.4V19.968H936.024V14.4H959.64V20.544L946.152 48H939.24L952.824 20.4ZM980.303 20.4V19.968H963.503V14.4H987.119V20.544L973.631 48H966.719L980.303 20.4ZM1007.78 20.4V19.968H990.981V14.4H1014.6V20.544L1001.11 48H994.197L1007.78 20.4Z" fill="#FAFAFA"/> */}
 </g>
 <g filter="url(#filter15_di_49_184)">
 <path d="M755 32H872" stroke="#0094FF" strokeWidth="4" strokeDasharray="6 6"/>
@@ -338,4 +337,4 @@ const RarityFrame = ({ rarityData, mightyDog, frameBack }: Props) => {
   )
 }
 
-export default RarityFrame;
+export default RarityLGFrame;

@@ -1,6 +1,6 @@
 const PhaseFrame = () => {
   return (
-    <div className="justify-center ml-[-90px]">
+    <div className="justify-center ml-[-68px]">
       <svg width="510" height="686" viewBox="0 0 510 686" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.5" filter="url(#filter0_f_0_1)">
       <ellipse cx="255" cy="573.5" rx="155" ry="12.5" fill="#0094FF"/>
