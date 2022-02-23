@@ -71,7 +71,7 @@ const Mint = () => {
           <div className="text-center w-[100px]">{count}</div>
           <CounterButton clickHandler={onPlus} buttonCaption="+" />
         </div>
-        <div className={ (connected ? "hidden" : "flex") + " justify-center mt-[50px]" }>
+        <div className={ (connected ? "hidden" : "flex") + " justify-center mt-[70px]" }>
           <ControlButton key="Connect Wallet" clickHandler={ onConnect } buttonCaption={ pending ? "Pending" : "Connect" } />
         </div>
         <div className={ (connected ? "flex" : "hidden") + " justify-center mt-[50px]" }>
