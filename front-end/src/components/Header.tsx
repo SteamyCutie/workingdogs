@@ -6,14 +6,17 @@ import TwitterIcon from "../assets/svg/twitter";
 import TiktokIcon from "../assets/svg/tiktok";
 import { useNavigate, useLocation } from 'react-router-dom'
 
-const Header = () => {
+type Props = {
+  mT: any;
+};
+
+const Header = ({ mT }: Props) => {
   const MENU_ITEMS = HEADER["menu-item"];
 
   const location = useLocation();
   const navigate = useNavigate()
 
   const handleGoSection = (index: string) => {
-
     if (location.pathname === '/') {
       const element: any = document.getElementById(index)
       const topPos = element.offsetTop
@@ -30,7 +33,7 @@ const Header = () => {
   }
 
   return (
-    <div className="flex justify-between px-6 lg:px-16 mt-[-6575px] lg:mt-[-6605px] bg-[#0B0B0B]/0 backdrop-blur-[0px]" id="header">
+    <div className={ "flex justify-between px-6 lg:px-16 " + mT + " bg-[#0B0B0B]/0 backdrop-blur-[0px]" } id="header">
       <div className="ml-0 lg:ml-[80px] text-[20px] font-['Trouble_Font'] font-[400] tracking-[2px] leading-[24px]"><a href="/">WorkingDogs</a></div>
       <div className="hidden lg:flex justify-items-center space-x-[30px] items-center">
         {

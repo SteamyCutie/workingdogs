@@ -1,7 +1,7 @@
 const MainLight = () => {
   return (
-    <div className="">
-<svg width="100vw" height="6605" viewBox="0 0 1440 6605" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="mt-[-2200px] md:mt-[5px] lg:mt-[5px]">
+<svg width="100%" height="6605" viewBox="0 0 1440 6605" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_0_1)">
 <circle cx="715.5" cy="955.25" r="114" fill="#0075D8"/>
 </g>

@@ -3,10 +3,13 @@ import dog2 from "../assets/img/hero/2 dog 1.png";
 import dog3 from "../assets/img/hero/3 dog 1.png";
 import dog4 from "../assets/img/hero/4 dog 1.png";
 import ControlButton from "./utils/ControlButton";
+import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const onMint = () => {
-    console.log("Mint Clicked!");
+    navigate('/mint');
   };
   const onJoinDiscord = () => {
     console.log("Join Discord Clicked!");
@@ -23,8 +26,8 @@ const Hero = () => {
         <img src={ dog3 } alt="dog3" className="flex invisible lg:visible" />
       </div>
       <div className="grid lg:flex lg:justify-center mt-[-60px] lg:mt-[-15px] gap-y-[20px] space-x-[0px] lg:space-x-[30px]">
-        <ControlButton key="Mint Control" clickHandler={ onMint } buttonName="Mint"/>
-        <ControlButton key="Discord Control" clickHandler={ onJoinDiscord } buttonName="Join Discord"/>
+        <ControlButton key="Mint Control" clickHandler={ onMint } buttonCaption="Mint"/>
+        <ControlButton key="Discord Control" clickHandler={ onJoinDiscord } buttonCaption="Join Discord"/>
       </div>
     </div>
   )
