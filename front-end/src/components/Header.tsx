@@ -8,9 +8,10 @@ import { useNavigate, useLocation } from 'react-router-dom'
 
 type Props = {
   mT: any;
+  menu: any;
 };
 
-const Header = ({ mT }: Props) => {
+const Header = ({ mT, menu }: Props) => {
   const MENU_ITEMS = HEADER["menu-item"];
 
   const location = useLocation();
@@ -35,7 +36,7 @@ const Header = ({ mT }: Props) => {
   return (
     <div className={ "flex justify-between px-6 lg:px-16 " + mT + " bg-[#0B0B0B]/0 backdrop-blur-[0px]" } id="header">
       <div className="ml-0 lg:ml-[80px] text-[20px] font-['Trouble_Font'] font-[400] tracking-[2px] leading-[24px]"><a href="/">WorkingDogs</a></div>
-      <div className="hidden lg:flex justify-items-center space-x-[30px] items-center">
+      <div className={ "hidden lg:" + menu + " justify-items-center space-x-[30px] items-center" }>
         {
           MENU_ITEMS && MENU_ITEMS.length > 0 && MENU_ITEMS.map((item) => 
             <div key={ item } onClick={() => handleGoSection(item.toLowerCase())} className="cursor-pointer hover:text-[#0094FF]"><div key={item} className="text-[16px] font-['Chakra Petch'] leading-[22px]">{item}</div></div>

@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div>
       <MainLight />
-      <Header mT="mt-[-4375px] md:mt-[-6605px] lg:mt-[-6605px]"/>
+      <Header mT="mt-[-4375px] md:mt-[-6605px] lg:mt-[-6605px]" menu="flex" />
       <Hero />
       <Pack />
       <YellowTape />
