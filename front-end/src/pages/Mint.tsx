@@ -74,7 +74,7 @@ const Mint = () => {
         <div className={ (connected ? "hidden" : "flex") + " justify-center mt-[70px]" }>
           <ControlButton key="Connect Wallet" clickHandler={ onConnect } buttonCaption={ pending ? "Pending" : "Connect" } />
         </div>
-        <div className={ (connected ? "flex" : "hidden") + " justify-center mt-[50px]" }>
+        <div className={ (connected ? "flex" : "hidden") + " justify-center mt-[70px]" }>
           <ControlButton key="Mint token" clickHandler={ onMint } buttonCaption={ pending ? "Pending" : "Mint" } />
         </div>
         <div className="mt-[20px] mb-[40px] md:mt-[30px] grid justify-center">
