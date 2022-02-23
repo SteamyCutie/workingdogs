@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
 import { InjectedConnector } from "@web3-react/injected-connector";
 import { useWeb3React } from "@web3-react/core";
@@ -57,7 +59,7 @@ const Mint = () => {
       <Header mT="mt-[10px] lg:mt-[30px]" menu="hidden" />
       <div>
         <div className="mt-[30px] md:mt-[60px]">
-          <div className="flex justify-center font-[900] text-center text-[80px] leading-[96px] lg:text-[100px] md:leading-[130px] pt-[20px] tracking-[3px]">0/<br className="flex md:hidden" />10000</div>
+          <div className="flex justify-center font-[900] text-center text-[48px] leading-[80px] lg:text-[100px] md:leading-[130px] pt-[20px] tracking-[3px]">0/10000</div>
           <div className={ (account ? "opacity-1" : "opacity-0") + " transition-all duration-300 ease-in-out flex justify-center font-[400] text-center text-[16px] leading-[20.8px] text-[#0094FF] mt-[10px]" }>
             { account ? abridgeAddress(account) : "Please Connect your Wallet" }
           </div>
@@ -84,7 +86,7 @@ const Mint = () => {
           </div>
         </div>
       </div>
-      <div className="flex place-content-between items-end w-[calc(100vw)] h-[calc(100vh)] fixed z-[-100] top-0 bg-[url('./assets/svg/mintback.svg')] no-repeat bg-right bg-cover md:bg-cover lg:bg-cover">
+      <div className="flex place-content-between items-end w-[calc(100vw)] h-[calc(100vh)] fixed z-[-100] top-0 bg-[url('./assets/img/mint/mintBG.png')] no-repeat bg-right bg-cover md:bg-cover lg:bg-cover">
         <div className="fixed left-[-160px] md:left-[250px] lg:left-[250px] min-w-[358px] min-h-[435px]"><img src={ dog3 } alt="" /></div>
         <div className="fixed right-[-160px] md:right-[250px] lg:right-[250px] min-w-[358px] min-h-[435px]"><img src={ dog1 } alt="" /></div>
       </div>
