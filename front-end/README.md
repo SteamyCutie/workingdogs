@@ -14,11 +14,11 @@ Just go into the `**/src/configs/roadmap.json**` and add or remove more items wi
 
 
   {\
-    "name": "NEW ROADMAP NAME",\
-    "image": "Image File Name",   // Just the new filename in the `**/src/assets/img/roadmap/[newfilename].png**`\
-    "description": "Next Working Dog Breed will be voted on by the community, developed and released.",\
-    "loaded": 50,                 // Complete percentage of the phase (upto 100)\
-    "progress": "Lorem ipsum"     // Progress Name\
+    &nbsp;&nbsp;"name": "NEW ROADMAP NAME",\
+    &nbsp;&nbsp;"image": "Image File Name",   // Just the new filename in the `**/src/assets/img/roadmap/[newfilename].png**`\
+    &nbsp;&nbsp;"description": "Next Working Dog Breed will be voted on by the community, developed and released.",\
+    &nbsp;&nbsp;"loaded": 50,                 // Complete percentage of the phase (upto 100)\
+    &nbsp;&nbsp;"progress": "Lorem ipsum"     // Progress Name\
   }
 
 
