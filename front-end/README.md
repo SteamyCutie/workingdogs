@@ -33,9 +33,9 @@ Make sure that new images are located in `**/src/assets/img/gallery**`
 Just go into the `**/src/configs/team.json**` and add or remove more items with the following format.\
 
 
-  {
+  {\
     "role": "NEW ROLE",           // New Role name of the new team member\
-    "photo": "Image File Name"    // Just the new member's photo in the `**/src/assets/img/team/[newfilename].png**`
+    "photo": "Image File Name"    // Just the new member's photo in the `**/src/assets/img/team/[newfilename].png**`\
   }
 
 
