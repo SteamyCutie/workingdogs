@@ -14,9 +14,11 @@ import { useState, useEffect } from 'react';
 const Home = () => {
 
   const [showButton, setShowButton] = useState(false);
+  const [offset, setOffset] = useState(0);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
+      setOffset(window.pageYOffset);
       if (window.pageYOffset > 300) {
         setShowButton(true);
       } else {
@@ -37,7 +39,7 @@ const Home = () => {
     <div>
       <MainLight />
       <Header mT="mt-[-4375px] md:mt-[-6605px] lg:mt-[-6605px]" menu="flex" />
-      <Hero />
+      <Hero offset={offset} />
       <Pack />
       <YellowTape />
       <Roadmap />
