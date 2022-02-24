@@ -1,26 +1,27 @@
 # Getting Started with WORKING DOGS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-Please feel free to ask any questions to me at anytime through (https://t.me/kritical0613).\
+Please feel free to ask any questions to me at anytime through (https://t.me/kritical0613).
 
 ## Customizing the Menu
 
 Just go into the **/src/configs/menu.json** and customize the array of "menu-item" field.\
-Change the 5 links in the file to your community links.\
+Change the 5 links in the file to your community links.
 
 ## Customizing the Roadmap
 
 Just go into the **/src/configs/roadmap.json** and add or remove more items with the following format.\
+
 \
-``
+
   {\
     "name": "NEW ROADMAP NAME",\
     "image": "Image File Name",   // Just the new filename in the **/src/assets/img/roadmap/[newfilename].png**\
     "description": "Next Working Dog Breed will be voted on by the community, developed and released.",\
     "loaded": 50,                 // Complete percentage of the phase (upto 100)\
-    "progress": "Lorem ipsum"     // Progress Name\
+    "progress": "Lorem ipsum"     // Progress Name
   }\
-``
+
 \
 
 ## Customizing the Gallery
