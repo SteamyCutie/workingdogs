@@ -1,51 +1,52 @@
 # Getting Started with WORKING DOGS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Please feel free to ask any questions to me at anytime through (https://t.me/kritical0613).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Please feel free to ask any questions to me at anytime through (https://t.me/kritical0613).\
 
 ## Customizing the Menu
 
-Just go into the **/src/configs/menu.json** and customize the array of "menu-item" field.
-Change the 5 links in the file to your community links.
+Just go into the **/src/configs/menu.json** and customize the array of "menu-item" field.\
+Change the 5 links in the file to your community links.\
 
 ## Customizing the Roadmap
 
-Just go into the **/src/configs/roadmap.json** and add or remove more items with the following format.
-
+Just go into the **/src/configs/roadmap.json** and add or remove more items with the following format.\
+\
 ``
-  {
-    "name": "NEW ROADMAP NAME",
-    "image": "Image File Name",   // Just the new filename in the **/src/assets/img/roadmap/[newfilename].png**
-    "description": "Next Working Dog Breed will be voted on by the community, developed and released.",
-    "loaded": 50,                 // Complete percentage of the phase (upto 100)
-    "progress": "Lorem ipsum"     // Progress Name
-  }
+  {\
+    "name": "NEW ROADMAP NAME",\
+    "image": "Image File Name",   // Just the new filename in the **/src/assets/img/roadmap/[newfilename].png**\
+    "description": "Next Working Dog Breed will be voted on by the community, developed and released.",\
+    "loaded": 50,                 // Complete percentage of the phase (upto 100)\
+    "progress": "Lorem ipsum"     // Progress Name\
+  }\
 ``
+\
 
 ## Customizing the Gallery
 
-Just go into the **/src/configs/gallery.json** and add or remove more image file names.
-Make sure that new images are located in **/src/assets/img/gallery**
+Just go into the **/src/configs/gallery.json** and add or remove more image file names.\
+Make sure that new images are located in **/src/assets/img/gallery**\
 
 
 ## Customizing the Team
 
-Just go into the **/src/configs/team.json** and add or remove more items with the following format.
+Just go into the **/src/configs/team.json** and add or remove more items with the following format.\
 ``
   {
-    "role": "NEW ROLE",           // New Role name of the new team member
-    "photo": "Image File Name"    // Just the new member's photo in the **/src/assets/img/team/[newfilename].png**
+    "role": "NEW ROLE",           // New Role name of the new team member\
+    "photo": "Image File Name"    // Just the new member's photo in the **/src/assets/img/team/[newfilename].png**\
   }
 ``
 
 ## Customizing the Rarity Values
 
-Just go into the **/src/configs/rarity.json** and only customize the current values (**Do not add or remove**).
+Just go into the **/src/configs/rarity.json** and only customize the current values (**Do not add or remove**).\
 
 
 ## Customizing the FAQ
 
-Just go into the **/src/configs/faq.json** and add or remove the new values.
+Just go into the **/src/configs/faq.json** and add or remove the new values.\
 
 
 ## Available Scripts
