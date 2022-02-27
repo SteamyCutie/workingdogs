@@ -1,11 +1,9 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   screens: {
-    xs: '320px',
+    xs: '375px',
     sm: '480px',
     md: '768px',
     lg: '976px',
@@ -19,8 +17,8 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      'body': ['"Trouble Font"']
-    }
+      body: ['"Trouble Font"'],
+    },
   },
-  plugins: []
+  plugins: [],
 }
